@@ -48,6 +48,9 @@
     "which": "^1.2.10"
   },
   "devDependencies": {
+    "@wdio/selenium-standalone-service": "5.7.8",
+    "@wdio/mocha-framework": "^5.7.8",
+    "@wdio/sauce-service": "^5.7.8",
     "babel-cli": "^6.9.0",
     "babel-plugin-lodash": "^3.2.9",
     "babel-plugin-syntax-async-functions": "^6.8.0",
@@ -66,10 +69,7 @@
     "rimraf": "^2.5.2",
     "selenium-standalone": "^6.4.1",
     "sinon": "^1.17.6",
-    "wdio-mocha-framework": "^0.3.2",
-    "wdio-sauce-service": "^0.4.0",
-    "wdio-selenium-standalone-service": "0.0.8",
-    "webdriverio": "~4.8.0"
+    "webdriverio": "~5.7.9"
   },
   "engines": {
     "node": ">=4"
